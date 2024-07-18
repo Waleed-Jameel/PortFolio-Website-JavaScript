@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(14, 2, 27);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            background-color: rgb(84, 14, 84);
+            display: flex;
+            height: 70px;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0px 23px;
+            list-style: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.02rem;
+            color: rgb(230, 134, 212);
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0px;
+        }
+
+        .firstSection>div {
+            width: 40%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            /* background-color: red; */
+
+        }
+
+        .leftSection .btn {
+            margin-top: 40px;
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border-radius: 6px;
+            border: 2px solid white;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgb(141, 36, 194);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        hr {
+            margin: 50px 50px 40px 50px;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .text-gray {
+            color: rgb(141, 36, 194);
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0px;
+            display: flex;
+        }
+
+        .vertical {
+            background-color: white;
+            width: 2px;
+            height: 95px;
+            margin: 0px 105px;
+        }
+
+        .imageTop {
+            width: 53px;
+            position: relative;
+            top: -42px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 22px
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 85px;
+            width: 150px;
+            color: grey;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: rgb(37, 33, 56);
+            height: 210px;
+        }
+
+        .footer {
+            display: flex;
+            /* background-color: rgb(37, 33, 56); */
+            margin: 440px 6px 0px 6px;
+
+            justify-content: space-evenly;
+            padding: 17px 4px;
+        }
+
+        .footer li {
+            list-style: none;
+        }
+
+        .footerRights {
+            margin: 62px 10px 2px 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi , My Name is <span class="purple">Waleed</span>
+                <div>and I am a Passionate
+                    <span id="element" style="color:rgb(141, 36, 194);"></span>
+                </div>
+                <div class="button">
+                    <button class="btn">Our Projects</button>
+                    <!-- <button class="btn">Hire Me!</button> -->
+                </div>
+            </div>
+
+            <div class="rightSection">
+                <img src="https://media.istockphoto.com/id/1356364287/photo/close-up-focus-on-persons-hands-typing-on-the-desktop-computer-backlit-keyboard-screens-show.jpg?s=1024x1024&w=is&k=20&c=T3xezeQ1n3oB5mefJ3FePQlFnxyXaYOIAhnUHJWwra8="
+                    alt="" />
+
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="imageTop"
+                        src="https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171862_l7yZ0wujj8o2SowiKTUsfLEEx8KunYNd.jpg"
+                        alt="" />
+                    <div class="vertical-title">
+                        HTML Developer (2010-12)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit unde repudiandae veritatis
+                        voluptates repellat maiores quibusdam inventore ullam tempore nulla.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="imageTop" src="fblogo.png" alt="" />
+                    <div class="vertical-title">
+                        node.js Developer (2012-14)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit unde repudiandae veritatis
+                        voluptates repellat maiores quibusdam inventore ullam tempore nulla.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="imageTop" src="waa.jpg" alt="" />
+                    <div class="vertical-title">
+                        JavaScript Developer (2014-17)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit unde repudiandae veritatis
+                        voluptates repellat maiores quibusdam inventore ullam tempore nulla.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="imageTop" src="yta.jpg" alt="" />
+                    <div class="vertical-title">
+                        React JS Developer (2017-21)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit unde repudiandae veritatis
+                        voluptates repellat maiores quibusdam inventore ullam tempore nulla.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="imageTop" src="tw.png" alt="" />
+                    <div class="vertical-title">
+                        MERN Stack Developer (2021-24)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit unde repudiandae veritatis
+                        voluptates repellat maiores quibusdam inventore ullam tempore nulla.
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footerFirst">
+                <h3>Ours Portfolio Website</h3>
+            </div>
+            <div class="footerSecond">
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Contact</li>
+            </div>
+            <div class="footerThird">
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Contact</li>
+            </div>
+
+        </div>
+        <div class="footerRights">
+            Copywright &#169; Waleed,s Portfolio Website | @ All Rights reserved </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer .', 'Web Designer .', 'FrontEnd Designer .','Video Editor .'],
+            typeSpeed: 80,
+        });
+    </script>
+</body>
+
+</html>
